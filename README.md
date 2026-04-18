@@ -17,7 +17,7 @@
 1.Open Termux and clone this repo:
 ```
 pkg install git -y
-git clone https://github.com/jarvesusaram99/ubuntu-on-android.git
+git clone https://github.com/cloudaii/ubuntu-on-android.git
 cd ubuntu-on-android
 chmod +x setup.sh launch.sh
 ```
