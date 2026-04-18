@@ -2,7 +2,7 @@
 
 # ==========================================
 # Ubuntu Start Script (with Audio & Fixes)
-# Created by Tech Jarves
+# Created by Unlocked
 # ==========================================
 
 echo "[*] Killing stuck X11 processes..."
