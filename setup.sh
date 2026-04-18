@@ -2,7 +2,7 @@
 
 # ==========================================
 # Udroid Installer & Setup Script
-# Created by Tech Jarves
+# Created by Unlocked
 # ==========================================
 
 echo "[*] Updating Termux packages..."
