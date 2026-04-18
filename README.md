@@ -26,3 +26,7 @@ chmod +x setup.sh launch.sh
 ./setup.sh
 ```
 **3.To Start Ubuntu (Every time): Run the launch script. It automatically fixes audio and display locks.**
+
+```
+./launch.sh
+```
