@@ -30,3 +30,50 @@ chmod +x setup.sh launch.sh
 ```
 ./launch.sh
 ```
+# manually install 
+**install dependencies**
+open Termux 
+```
+pkg update && pkg upgrade -y
+```
+# install udroid (ubuntu)
+**run official Installer**
+
+```
+. <(curl -Ls https://bit.ly/udroid-installer)
+```
+# login udroid 
+```
+udroid login jammy:xfce4
+```
+```
+udroid login jammy: gnome
+```
+# install udroid 
+```
+udroid install jammy:xfce4
+```
+```
+udroid install jammy: gnome
+```
+
+# install this
+```
+pkg install x11-repo -y
+```
+```
+pkg install termux-x11-nightly -y
+```
+
+# start display server
+```
+termux-x11 :1  -ac &
+```
+# start desktop 
+```
+export DISPLAY=:1
+```
+```
+startxfce4 &
+```
+
