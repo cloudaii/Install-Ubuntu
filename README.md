@@ -42,13 +42,7 @@ pkg update && pkg upgrade -y
 ```
 . <(curl -Ls https://bit.ly/udroid-installer)
 ```
-# login udroid 
-```
-udroid login jammy:xfce4
-```
-```
-udroid login jammy: gnome
-```
+
 # install udroid 
 ```
 udroid install jammy:xfce4
@@ -68,6 +62,13 @@ pkg install termux-x11-nightly -y
 # start display server
 ```
 termux-x11 :1  -ac &
+```
+# login udroid 
+```
+udroid login jammy:xfce4
+```
+```
+udroid login jammy: gnome
 ```
 # start desktop 
 ```
