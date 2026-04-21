@@ -33,7 +33,11 @@ chmod +x setup.sh launch.sh
 ```
 ./launch.sh
 ```
+
+
+
 # Option 2 (suggested)
+
 # Manually Install 
 **install dependencies**
 open Termux 
