@@ -30,6 +30,7 @@ chmod +x setup.sh launch.sh
 ```
 ./launch.sh
 ```
+# option 2 (suggested)
 # manually install 
 **install dependencies**
 open Termux 
@@ -44,6 +45,7 @@ pkg update && pkg upgrade -y
 ```
 
 # install udroid 
+use this:
 ```
 udroid install jammy:xfce4
 ```
@@ -64,6 +66,7 @@ pkg install termux-x11-nightly -y
 termux-x11 :1  -ac &
 ```
 # login udroid 
+use this:
 ```
 udroid login jammy:xfce4
 ```
