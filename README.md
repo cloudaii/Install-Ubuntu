@@ -6,10 +6,13 @@
 
 # Features
 
-**•One-Click Setup:** Installs dependencies (X11, Audio) automatically.
-**•Auto-Fix Script:** Clears "Access Denied" or "Display Locked" errors.
-**•Audio Support:** Enables PulseAudio for sound in Linux (fixes Firefox audio).
-**•No Root Required.**
+**• One-Click Setup:** Installs dependencies (X11, Audio) automatically.
+
+**• Auto-Fix Script:** Clears "Access Denied" or "Display Locked" errors.
+
+**• Audio Support:** Enables PulseAudio for sound in Linux (fixes Firefox audio).
+
+**• No Root Required.**
 
 # Option 1: Automatic Setup
 **If you just want to get it running quickly, use the included scripts.**
@@ -30,21 +33,21 @@ chmod +x setup.sh launch.sh
 ```
 ./launch.sh
 ```
-# option 2 (suggested)
-# manually install 
+# Option 2 (suggested)
+# Manually Install 
 **install dependencies**
 open Termux 
 ```
 pkg update && pkg upgrade -y
 ```
-# install udroid (ubuntu)
+# Install Udroid (ubuntu)
 **run official Installer**
 
 ```
 . <(curl -Ls https://bit.ly/udroid-installer)
 ```
 
-# install udroid 
+# Install Udroid 
 use this:
 ```
 udroid install jammy:xfce4
@@ -61,11 +64,11 @@ pkg install x11-repo -y
 pkg install termux-x11-nightly -y
 ```
 
-# start display server
+# Start Display Server
 ```
 termux-x11 :1  -ac &
 ```
-# login udroid 
+# Login Udroid 
 use this:
 ```
 udroid login jammy:xfce4
@@ -73,7 +76,7 @@ udroid login jammy:xfce4
 ```
 udroid login jammy: gnome
 ```
-# start desktop 
+# Start Desktop 
 ```
 export DISPLAY=:1
 ```
